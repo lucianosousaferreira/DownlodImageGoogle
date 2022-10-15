@@ -19,8 +19,7 @@ options.add_argument("--headless")
 options.add_argument("--disable-gpu")
 options.add_argument('--dns-prefetch-disable')
 
-df = pd.read_excel('/home/luciano/Documentos/baixar.xlsx')
-list_peq = df['pesquisa'].to_list()
+list_peq = ['cachorro','gato','pato','coelho']
 
 driver = webdriver.Firefox(options=options)
 
